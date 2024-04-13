@@ -1,8 +1,8 @@
 package com.francobm.livestreaminteractions.api.events;
 
+import com.francobm.livestreaminteractions.api.cache.StreamType;
 import com.francobm.livestreaminteractions.api.cache.websocket.WebSocketConfig;
 import com.francobm.livestreaminteractions.api.events.data.EventFollowData;
-import com.francobm.livestreaminteractions.cache.StreamType;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
