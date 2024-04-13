@@ -1,26 +1,18 @@
 package com.francobm.livestreaminteractions.api.events.data;
 
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
+
 public class EventChatData {
 
-    private final String user;
-    private final String comment;
-    private final String language;
-
-    public EventChatData(String user, String comment, String language) {
-        this.user = user;
-        this.comment = comment;
-        this.language = language;
-    }
-
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public String getComment() {
-        return comment;
+        throw new LINotInstalledException();
     }
 
     public String getLanguage() {
-        return language;
+        throw new LINotInstalledException();
     }
 }

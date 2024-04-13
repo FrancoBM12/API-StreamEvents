@@ -1,23 +1,14 @@
 package com.francobm.livestreaminteractions.api.events.data;
 
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
+
 public class EventFollowData {
-    private final String user;
-    private final boolean follow;
-
-    public EventFollowData(String user) {
-        this(user, true);
-    }
-
-    public EventFollowData(String user, boolean follow) {
-        this.user = user;
-        this.follow = follow;
-    }
 
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public boolean isFollow() {
-        return follow;
+        throw new LINotInstalledException();
     }
 }

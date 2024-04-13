@@ -1,34 +1,30 @@
 package com.francobm.livestreaminteractions.api.events.data.twitch;
 
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
+
 public class Bit {
-    private int id;
-    private String name;
-    private String amount;
-    private String emotes;
-    private String message;
-    private String _id;
 
     public int getId() {
-        return id;
+        throw new LINotInstalledException();
     }
 
     public String getName() {
-        return name;
+        throw new LINotInstalledException();
     }
 
     public String getAmount() {
-        return amount;
+        throw new LINotInstalledException();
     }
 
     public String getEmotes() {
-        return emotes;
+        throw new LINotInstalledException();
     }
 
     public String getMessage() {
-        return message;
+        throw new LINotInstalledException();
     }
 
     public String get_id() {
-        return _id;
+        throw new LINotInstalledException();
     }
 }

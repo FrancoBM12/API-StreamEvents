@@ -1,24 +1,22 @@
 package com.francobm.livestreaminteractions.api.events.data.twitch;
 
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
+
 public class Host {
-    private String name;
-    private String viewers;
-    private String type;
-    private String _id;
 
     public String getName() {
-        return name;
+        throw new LINotInstalledException();
     }
 
     public String getViewers() {
-        return viewers;
+        throw new LINotInstalledException();
     }
 
     public String getType() {
-        return type;
+        throw new LINotInstalledException();
     }
 
     public String get_id() {
-        return _id;
+        throw new LINotInstalledException();
     }
 }

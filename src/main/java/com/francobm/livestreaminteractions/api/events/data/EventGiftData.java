@@ -1,55 +1,38 @@
 package com.francobm.livestreaminteractions.api.events.data;
 
-public class EventGiftData {
-    private final String user;
-    private final String giftName;
-    private final String giftAmount;
-    private final long giftId;
-    private final String giftDescribe;
-    private final int giftDiamonds;
-    private final int giftRepeatCount;
-    private final int giftRepeatEnd;
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
 
-    public EventGiftData(String user, String giftName, String giftAmount, long giftId, String giftDescribe, int giftDiamonds, int giftRepeatCount, int giftRepeatEnd) {
-        this.user = user;
-        this.giftName = giftName;
-        this.giftAmount = giftAmount;
-        this.giftId = giftId;
-        this.giftDescribe = giftDescribe;
-        this.giftDiamonds = giftDiamonds;
-        this.giftRepeatCount = giftRepeatCount;
-        this.giftRepeatEnd = giftRepeatEnd;
-    }
+public class EventGiftData {
 
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public String getGiftName() {
-        return giftName;
+        throw new LINotInstalledException();
     }
 
     public String getGiftAmount() {
-        return giftAmount;
+        throw new LINotInstalledException();
     }
 
     public long getGiftId() {
-        return giftId;
+        throw new LINotInstalledException();
     }
 
     public String getGiftDescribe() {
-        return giftDescribe;
+        throw new LINotInstalledException();
     }
 
     public int getGiftDiamonds() {
-        return giftDiamonds;
+        throw new LINotInstalledException();
     }
 
     public int getGiftRepeatCount() {
-        return giftRepeatCount;
+        throw new LINotInstalledException();
     }
 
     public int getGiftRepeatEnd() {
-        return giftRepeatEnd;
+        throw new LINotInstalledException();
     }
 }

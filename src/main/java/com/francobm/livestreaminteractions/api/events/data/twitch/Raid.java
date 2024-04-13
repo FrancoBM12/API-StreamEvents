@@ -1,19 +1,17 @@
 package com.francobm.livestreaminteractions.api.events.data.twitch;
 
-public class Raid {
-    private String name;
-    private int raiders;
-    private String _id;
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
 
+public class Raid {
     public String getName() {
-        return name;
+        throw new LINotInstalledException();
     }
 
     public int getRaiders() {
-        return raiders;
+        throw new LINotInstalledException();
     }
 
     public String get_id() {
-        return _id;
+        throw new LINotInstalledException();
     }
 }

@@ -1,26 +1,18 @@
 package com.francobm.livestreaminteractions.api.events.data.tiktok;
 
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
+
 public class EventLikeData {
 
-    private final String user;
-    private final int likesCount;
-    private final int totalLikesCount;
-
-    public EventLikeData(String user, int likesCount, int totalLikesCount) {
-        this.user = user;
-        this.likesCount = likesCount;
-        this.totalLikesCount = totalLikesCount;
-    }
-
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public int getLikesCount() {
-        return likesCount;
+        throw new LINotInstalledException();
     }
 
     public int getTotalLikesCount() {
-        return totalLikesCount;
+        throw new LINotInstalledException();
     }
 }

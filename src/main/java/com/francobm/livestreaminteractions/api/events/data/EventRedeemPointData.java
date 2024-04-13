@@ -1,61 +1,42 @@
 package com.francobm.livestreaminteractions.api.events.data;
 
-public class EventRedeemPointData {
-    private final String id;
-    private final String title;
-    private final String channelId;
-    private final String status;
-    private final String redeemedAt;
-    private final String user;
-    private final long cost;
-    private final String prompt;
-    private final String backgroundColorHex;
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
 
-    public EventRedeemPointData(String id, String title, String channelId, String status, String redeemedAt, String user, long cost, String prompt, String backgroundColorHex) {
-        this.id = id;
-        this.title = title;
-        this.channelId = channelId;
-        this.status = status;
-        this.redeemedAt = redeemedAt;
-        this.user = user;
-        this.cost = cost;
-        this.prompt = prompt;
-        this.backgroundColorHex = backgroundColorHex;
-    }
+public class EventRedeemPointData {
 
     public String getId() {
-        return id;
+        throw new LINotInstalledException();
     }
 
     public String getTitle() {
-        return title;
+        throw new LINotInstalledException();
     }
 
     public String getChannelId() {
-        return channelId;
+        throw new LINotInstalledException();
     }
 
     public String getStatus() {
-        return status;
+        throw new LINotInstalledException();
     }
 
     public String getRedeemedAt() {
-        return redeemedAt;
+        throw new LINotInstalledException();
     }
 
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public long getCost() {
-        return cost;
+        throw new LINotInstalledException();
     }
 
     public String getPrompt() {
-        return prompt;
+        throw new LINotInstalledException();
     }
 
     public String getBackgroundColorHex() {
-        return backgroundColorHex;
+        throw new LINotInstalledException();
     }
 }

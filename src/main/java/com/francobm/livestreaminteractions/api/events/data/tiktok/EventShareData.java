@@ -1,18 +1,13 @@
 package com.francobm.livestreaminteractions.api.events.data.tiktok;
 
-public class EventShareData {
-    private final String user;
-    private final int shareCount;
-    public EventShareData(String user, int shareCount) {
-        this.user = user;
-        this.shareCount = shareCount;
-    }
+import com.francobm.livestreaminteractions.utils.LINotInstalledException;
 
+public class EventShareData {
     public String getUser() {
-        return user;
+        throw new LINotInstalledException();
     }
 
     public int getShareCount() {
-        return shareCount;
+        throw new LINotInstalledException();
     }
 }
