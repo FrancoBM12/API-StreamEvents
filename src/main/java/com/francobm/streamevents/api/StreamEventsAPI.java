@@ -7,6 +7,10 @@ import com.francobm.streamevents.utils.SENotInstalledException;
 
 public class StreamEventsAPI {
 
+    public Action getRegisteredAction(String action) {
+        throw new SENotInstalledException();
+    }
+
     public void registerCustomAction(String call, Class<? extends Action> action) {
         throw new SENotInstalledException();
     }
