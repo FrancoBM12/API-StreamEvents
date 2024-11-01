@@ -15,7 +15,7 @@ public abstract class Action {
         throw new SENotInstalledException();
     }
 
-    public Action getRegisteredAction(String actionId) {
+    public Action getRegisteredAction(String action) {
         throw new SENotInstalledException();
     }
 
